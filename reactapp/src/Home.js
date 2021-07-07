@@ -55,6 +55,10 @@ function Home(props) {
         <div className="container d-flex justify-content-center align-items-start" style={{ height: '100vh' }}>
             <div className="row">
 
+                <div className="col-12 pb-4 d-flex justify-content-center">
+                    <h1>Bienvenue sur myyamsgame !</h1>
+                </div>
+
                 <div className="col-12 pb-4">
                     <h2>Veuillez sélectionner les joueurs</h2>
                 </div>
@@ -63,7 +67,7 @@ function Home(props) {
                     <InputGroup>
                         <Input type='text'
                             className="Login-input"
-                            placeholder="player 1"
+                            placeholder="joueur 1"
                             onChange={(e) => setPlayerOne(e.target.value)}
                             value={playerOne}
                         />
@@ -74,7 +78,7 @@ function Home(props) {
                     <InputGroup>
                         <Input type='text'
                             className="Login-input"
-                            placeholder="player 2"
+                            placeholder="joueur 2"
                             onChange={(e) => setPlayerTwo(e.target.value)}
                             value={playerTwo}
                         />
@@ -85,7 +89,7 @@ function Home(props) {
                     <InputGroup>
                         <Input type='text'
                             className="Login-input"
-                            placeholder="player 3"
+                            placeholder="joueur 3"
                             onChange={(e) => setPlayerThree(e.target.value)}
                             value={playerThree}
                         />
@@ -96,7 +100,7 @@ function Home(props) {
                     <InputGroup>
                         <Input type='text'
                             className="Login-input"
-                            placeholder="player 4"
+                            placeholder="joueur 4"
                             onChange={(e) => setPlayerFour(e.target.value)}
                             value={playerFour}
                         />
@@ -107,7 +111,7 @@ function Home(props) {
                     <InputGroup>
                         <Input type='text'
                             className="Login-input"
-                            placeholder="player 5"
+                            placeholder="joueur 5"
                             onChange={(e) => setPlayerFive(e.target.value)}
                             value={playerFive}
                         />
@@ -118,7 +122,7 @@ function Home(props) {
                     <InputGroup>
                         <Input type='text'
                             className="Login-input"
-                            placeholder="player 6"
+                            placeholder="joueur 6"
                             onChange={(e) => setPlayerSix(e.target.value)}
                             value={playerSix}
                         />
